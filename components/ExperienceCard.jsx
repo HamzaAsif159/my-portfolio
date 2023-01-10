@@ -8,15 +8,15 @@ export default function ExperienceCard({
   companyLink,
 }) {
   return (
-    <div className="relative experience-card border p-4 rounded-md shadow-xl bg-gray-800 z-10 mx-4">
-      <h1 className="absolute -top-10 md:-left-10 md:-top-10 text-4xl font-bol text-gray-800">
+    <div className="relative z-10 p-4 mx-4 bg-gray-800 border rounded-md shadow-xl experience-card">
+      <h1 className="absolute text-4xl text-gray-800 -top-10 md:-left-10 md:-top-10 font-bol">
         {year}
       </h1>
-      <h1 className="font-semibold text-xl">{title}</h1>
+      <h1 className="text-xl font-semibold">{title}</h1>
       <a href={companyLink} className="text-gray-500">
         {company}
       </a>
-      <p className="text-gray-400 my-2">{description}</p>
+      <p className="my-2 text-gray-400">{description}</p>
     </div>
   )
 }

@@ -5,7 +5,7 @@ import Experience from "../components/Experience"
 export default function experience() {
   return (
     <>
-      <Container>
+      <Container title="Hamza Asif - Experience">
         <Experience />
       </Container>
     </>

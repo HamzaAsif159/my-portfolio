@@ -4,14 +4,14 @@ import ExperienceCard from "./ExperienceCard"
 
 export default function Experience() {
   return (
-    <section className="bg-gray-800 text-white">
-      <div className="max-w-6xl mx-auto h-48 bbg-gray-800">
-        <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
+    <section className="text-white bg-gray-800">
+      <div className="h-48 max-w-6xl mx-auto bbg-gray-800">
+        <h1 className="py-20 text-5xl font-bold text-center  md:text-9xl md:text-left">
           Experience
         </h1>
       </div>
-      <div className="bg-gray-900 -mt-4">
-        <div className="grid grid-cols-1 dark:bg-gray-900 max-w-xl mx-auto pt-20">
+      <div className="-mt-4 bg-gray-900">
+        <div className="grid max-w-xl grid-cols-1 pt-20 mx-auto dark:bg-gray-900">
           {/* Experience card */}
           {Data.experience.map((exp, idx) => (
             <>
@@ -24,11 +24,11 @@ export default function Experience() {
                 companyLink={exp.companyLink}
               />
               {idx === Data.experience.length - 1 ? null : (
-                <div className="divider-container flex flex-col items-center -mt-2">
-                  <div className="w-4 h-4 bg-green-500 rounded-full relative z-10">
-                    <div className="w-4 h-4 bg-green-500 rounded-full relative z-10 animate-ping"></div>
+                <div className="flex flex-col items-center -mt-2 divider-container">
+                  <div className="relative z-10 w-4 h-4 bg-green-500 rounded-full">
+                    <div className="relative z-10 w-4 h-4 bg-green-500 rounded-full animate-ping"></div>
                   </div>
-                  <div className="w-1 h-24 bg-gray-500 rounded-full -mt-2"></div>
+                  <div className="w-1 h-24 -mt-2 bg-gray-500 rounded-full"></div>
                 </div>
               )}
             </>

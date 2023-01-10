@@ -9,7 +9,7 @@ export default function Container({ children, ...customMeta }) {
 
   const meta = {
     title: "Hamza Asif - React Developer",
-    description: ` Get in touch with me to know more.`,
+    description: `Get in touch with me to know more.`,
     image: "https://i.ibb.co/7VNwPRF/fav.jpg",
     type: "website",
     ...customMeta,
@@ -41,7 +41,7 @@ export default function Container({ children, ...customMeta }) {
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
       </Head>
-      <main className="bg-gray-800 w-full">
+      <main className="w-full bg-gray-800">
         <Navbar />
         <div>{children}</div>
         <Footer />

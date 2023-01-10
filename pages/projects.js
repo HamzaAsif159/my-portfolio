@@ -5,7 +5,7 @@ import Container from "../components/Container"
 export default function projects() {
   return (
     <>
-      <Container>
+      <Container title="Hamza Asif - Projects">
         <Projects />
       </Container>
     </>
