@@ -51,7 +51,7 @@ const Data = {
       ` I'm a React Developer with hands-on experience in identifying web-based user interactions along with designing and implementing highly-responsive user interface components by deploying React concepts. Proficient in translating designs and wire-frames into high quality code, and writing applications interface code via JavaScript and ReactJS workflows. Adept at monitoring and maintaining front-end performance, troubleshooting and debugging the same to bolster overall performance.`,
     ],
     currentProject: "Redux E-commerce Store",
-    currentProjectUrl: "https://tailwindmasterkit.com",
+    currentProjectUrl: "https://e-store12.netlify.app/",
   },
   experience: [
     {
