@@ -47,7 +47,7 @@ export default function Aboutme() {
             <h1 className="text-xl font-semibold mt-8 text-gray-200">
               Social Links
             </h1>
-            <div className="mt-4 ml-4">
+            <div className="mt-4 ml-4 text-white">
               <div className="flex flex-row justify-start items-center ">
                 <a
                   href={Data.socialLinks.facebook}
