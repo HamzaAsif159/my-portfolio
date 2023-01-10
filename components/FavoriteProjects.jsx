@@ -5,13 +5,13 @@ export default function FavoriteProjects() {
   return (
     <div className="bg-gray-900">
       <div className="max-w-6xl mx-auto">
-        <header className="flex flex-col md:flex-row justify-between items-center md:pt-40  md:my-20 lg:my-0">
-          <h1 className="text-6xl lg:text-9xl max-w-lg font-bold  my-20 md:my-0  text-gray-600 text-center">
+        <header className="flex flex-col items-center justify-between md:flex-row md:pt-40 md:my-20 lg:my-0">
+          <h1 className="max-w-lg my-20 text-6xl font-bold text-center text-gray-600 lg:text-9xl md:my-0">
             Favorite Projects
           </h1>
           <Link
             href="/projects"
-            className="mb-20 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700"
+            className="flex flex-row items-center px-8 py-4 mb-20 space-x-4 text-xl font-semibold bg-white rounded-md shadow-lg md:mb-0 dark:text-gray-700"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -33,22 +33,22 @@ export default function FavoriteProjects() {
         </header>
 
         {/* Grid starts here */}
-        <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
+        <div className="grid gap-8 pb-40 md:grid-cols-3 lg:-mt-8">
           {/* Single card */}
           <a
             href="https://react-weather-app233.netlify.app"
-            className="w-full block col-span-3 shadow-2xl"
+            className="block w-full col-span-3 shadow-2xl"
           >
             <div className="relative overflow-hidden">
               <img
                 src="https://i.ibb.co/5R7VHRY/Screenshot-from-2023-01-04-18-02-35.png"
                 alt="portfolio"
-                className="w-screen transform hover:scale-110 transition duration-2000 ease-in"
+                className="w-screen transition ease-in transform hover:scale-110 duration-2000"
               />
-              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
+              <h1 className="absolute px-2 text-xl font-bold bg-red-500 rounded-md top-10 left-10 text-gray-50">
                 Weatherbug
               </h1>
-              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+              <h1 className="absolute text-xl font-bold bottom-10 left-10 text-gray-50">
                 01
               </h1>
             </div>
@@ -56,19 +56,19 @@ export default function FavoriteProjects() {
           {/* Single card */}
           <a
             href="https://quizzical159.netlify.app/"
-            className="w-full block col-span-3  sm:col-span-2 shadow-2xl"
+            className="block w-full col-span-3 shadow-2xl sm:col-span-2"
           >
             <div className="relative overflow-hidden">
-              {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
+              {/* <div className="absolute inset-0 z-10 bg-black overlay bg-opacity-70"></div> */}
               <img
                 src="https://i.ibb.co/jbmS8PV/Screenshot-from-2023-01-04-18-11-46.png"
                 alt="portfolio"
-                className="w-screen transform hover:scale-125 transition duration-2000 ease-out"
+                className="w-screen transition ease-out transform hover:scale-125 duration-2000"
               />
-              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
+              <h1 className="absolute px-2 text-xl font-bold bg-red-500 rounded-md top-10 left-10 text-gray-50">
                 Quizzical
               </h1>
-              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+              <h1 className="absolute text-xl font-bold bottom-10 left-10 text-gray-50">
                 02
               </h1>
             </div>
@@ -76,19 +76,19 @@ export default function FavoriteProjects() {
           {/* Single card */}
           <a
             href="https://pictobook.netlify.app/"
-            className="w-full block col-span-3 sm:col-span-1  object-cover"
+            className="block object-cover w-full col-span-3 sm:col-span-1"
           >
             <div className="relative overflow-hidden shadow-2xl">
-              {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
+              {/* <div className="absolute inset-0 z-10 bg-black overlay bg-opacity-70"></div> */}
               <img
                 src="https://i.ibb.co/F8F20cH/Screenshot-from-2023-01-04-18-05-46.png"
                 alt="portfolio"
-                className="transform hover:scale-125 transition duration-2000 ease-out object-cover shadow-2xl"
+                className="object-cover transition ease-out transform shadow-2xl hover:scale-125 duration-2000"
               />
-              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
+              <h1 className="absolute px-2 text-xl font-bold bg-red-500 rounded-md top-10 left-10 text-gray-50">
                 Pictobook
               </h1>
-              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+              <h1 className="absolute text-xl font-bold bottom-10 left-10 text-gray-50">
                 03
               </h1>
             </div>
