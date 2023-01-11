@@ -33,7 +33,7 @@ export default function FavoriteProjects() {
         </header>
 
         {/* Grid starts here */}
-        <div className="grid gap-8 md:pb-40 md:grid-cols-3 lg:-mt-8">
+        <div className="grid gap-8 md:grid-cols-3 lg:-mt-8">
           {/* Single card */}
           <a
             href="https://react-weather-app233.netlify.app"

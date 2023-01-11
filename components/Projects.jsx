@@ -11,7 +11,7 @@ export default function Projects() {
         </h1>
       </div>
       <div className="bg-gray-900">
-        <div className="grid max-w-6xl grid-cols-1 gap-8 mx-auto md:py-20 md:pb-40 md:grid-cols-2">
+        <div className="grid max-w-6xl grid-cols-1 gap-8 mx-auto md:py-20  md:grid-cols-2">
           {Data.projects.map((proj, idx) => (
             <ProjectCard
               title={proj.title}
