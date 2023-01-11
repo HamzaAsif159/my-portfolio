@@ -6,32 +6,32 @@ import Data from "../constant/Data.js"
 export default function Hero() {
   const colors = ["#F59E0B", "#84CC16", "#10B981"]
   return (
-    <div className="flex flex-row justify-center items-start overflow-hidden">
+    <div className="flex flex-col items-center justify-center overflow-hidden md:flex-row md:items-start">
       {/* Text container */}
 
-      <div className="w-full md:w-1/2 mx-auto text-center md:text-left lg:p-20">
+      <div className="w-full mx-auto text-center md:w-1/2 md:text-left lg:p-20">
         <RoughNotationGroup show={true}>
           <RainbowHighlight color={colors[0]}>
-            <h1 className="text-4xl md:text-8xl font-bold text-gray-200 my-2">
+            <h1 className="my-2 text-4xl font-bold text-gray-200 md:text-8xl">
               React Developer
             </h1>
           </RainbowHighlight>
           <RainbowHighlight color={colors[1]}>
-            <h1 className="text-4xl md:text-8xl font-bold text-gray-200 my-2">
+            <h1 className="my-2 text-4xl font-bold text-gray-200 md:text-8xl">
               Fixing bugs
             </h1>
           </RainbowHighlight>
           <RainbowHighlight color={colors[2]}>
-            <h1 className="text-4xl md:text-8xl font-bold text-gray-200 my-2">
+            <h1 className="my-2 text-4xl font-bold text-gray-200 md:text-8xl">
               & words
             </h1>
           </RainbowHighlight>
         </RoughNotationGroup>
       </div>
       {/* Image container */}
-      <div className="hidden lg:block relative w-full md:w-1/2 -mr-10 mt-14">
-        <div className="w-3/4 ">
-          <img src={Data.avatarUrl} alt="avatar" className=" shadow" />
+      <div className="relative w-11/12 md:-mr-10  md:w-1/2 mt-14">
+        <div className="w-full md:w-9/12 ">
+          <img src={Data.avatarUrl} alt="avatar" className="shadow " />
           <div className="flex flex-row justify-between mt-4">
             <div className="flex flex-row space-x-4">
               <svg
@@ -39,7 +39,7 @@ export default function Hero() {
                 width="16"
                 height="16"
                 fill="currentColor"
-                className="bi bi-arrow-90deg-up text-white"
+                className="text-white bi bi-arrow-90deg-up"
                 viewBox="0 0 16 16"
               >
                 <path

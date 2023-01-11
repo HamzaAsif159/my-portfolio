@@ -15,13 +15,7 @@ export default function Aboutme() {
             className="mx-4 text-2xl font-semibold leading-loose text-white md:text-4xl"
             style={{ lineHeight: "3rem" }}
           >
-            {Data.about.title}. Currently working on{" "}
-            <a
-              className="px-2 py-1 text-white bg-red-500 rounded-md cursor-pointer"
-              href={Data.about.currentProjectUrl}
-            >
-              {Data.about.currentProject}
-            </a>
+            {Data.about.title}.
           </p>
         </div>
       </div>
