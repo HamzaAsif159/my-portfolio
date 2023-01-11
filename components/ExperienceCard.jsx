@@ -9,7 +9,7 @@ export default function ExperienceCard({
 }) {
   return (
     <div className="relative z-10 p-4 mx-4 bg-gray-800 border rounded-md shadow-xl experience-card">
-      <h1 className="absolute text-4xl text-gray-800 -top-10 md:-left-10 md:-top-10 font-bol">
+      <h1 className="absolute text-4xl font-bold text-gray-600 -top-10 md:-left-10 md:-top-10">
         {year}
       </h1>
       <h1 className="text-xl font-semibold">{title}</h1>

@@ -68,27 +68,6 @@ const Data = {
       companyLink: "https://strategisthub.com/",
       desc: "Worked for company social apps and posting",
     },
-    {
-      title: "Graduation",
-      company: "The University Of Faisalabad",
-      year: "2020-2024",
-      companyLink: "https://tuf.edu.pk/",
-      desc: "Bachelor's degree of Computer Science with 3.4 CGPA but that's okay nobody asks for.",
-    },
-    {
-      title: "Intermediate",
-      company: "Punjab College, Pindi Bhattian, Punjab, Pakistan.",
-      year: "2020",
-      companyLink: "https://upes.co.in",
-      desc: "Major in Computer Science with 80% marks",
-    },
-    {
-      title: "High School",
-      company: "District Public School, Pindi Bhattian, Punjab, Pakistan.",
-      year: "2018",
-      companyLink: "https://upes.co.in",
-      desc: "Did matriculation and barely passed with 85% marks",
-    },
   ],
   resumeUrl: "",
   socialLinks: {

@@ -33,7 +33,7 @@ export default function FavoriteProjects() {
         </header>
 
         {/* Grid starts here */}
-        <div className="grid gap-8 pb-40 md:grid-cols-3 lg:-mt-8">
+        <div className="grid gap-8 md:pb-40 md:grid-cols-3 lg:-mt-8">
           {/* Single card */}
           <a
             href="https://react-weather-app233.netlify.app"
@@ -59,7 +59,6 @@ export default function FavoriteProjects() {
             className="block w-full col-span-3 shadow-2xl sm:col-span-2"
           >
             <div className="relative overflow-hidden">
-              {/* <div className="absolute inset-0 z-10 bg-black overlay bg-opacity-70"></div> */}
               <img
                 src="https://i.ibb.co/jbmS8PV/Screenshot-from-2023-01-04-18-11-46.png"
                 alt="portfolio"
@@ -79,7 +78,6 @@ export default function FavoriteProjects() {
             className="block object-cover w-full col-span-3 sm:col-span-1"
           >
             <div className="relative overflow-hidden shadow-2xl">
-              {/* <div className="absolute inset-0 z-10 bg-black overlay bg-opacity-70"></div> */}
               <img
                 src="https://i.ibb.co/F8F20cH/Screenshot-from-2023-01-04-18-05-46.png"
                 alt="portfolio"

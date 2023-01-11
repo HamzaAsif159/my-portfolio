@@ -6,12 +6,12 @@ export default function Projects() {
   return (
     <section className="text-white bg-gray-800">
       <div className="h-48 max-w-6xl mx-auto bg-gray-800">
-        <h1 className="py-20 text-5xl font-bold text-center  md:text-9xl md:text-left">
+        <h1 className="py-20 text-5xl font-bold text-center md:text-9xl md:text-left">
           Projects
         </h1>
       </div>
       <div className="bg-gray-900">
-        <div className="grid max-w-6xl grid-cols-1 gap-8 py-20 pb-40 mx-auto md:grid-cols-2">
+        <div className="grid max-w-6xl grid-cols-1 gap-8 mx-auto md:py-20 md:pb-40 md:grid-cols-2">
           {Data.projects.map((proj, idx) => (
             <ProjectCard
               title={proj.title}
