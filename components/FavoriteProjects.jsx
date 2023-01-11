@@ -6,12 +6,12 @@ export default function FavoriteProjects() {
     <div className="bg-gray-900">
       <div className="max-w-6xl mx-auto">
         <header className="flex flex-col items-center justify-between md:flex-row md:pt-40 md:my-20 lg:my-0">
-          <h1 className="max-w-lg my-20 text-6xl font-bold text-center text-gray-600 lg:text-9xl md:my-0">
+          <h1 className="max-w-lg text-3xl my-10 md:text-6xl font-bold text-center text-gray-600 lg:text-9xl md:my-0">
             Favorite Projects
           </h1>
           <Link
             href="/projects"
-            className="flex flex-row items-center px-8 py-4 mb-20 space-x-4 text-xl font-semibold bg-white rounded-md shadow-lg md:mb-0 dark:text-gray-700"
+            className="flex flex-row items-center px-4 py-3 mb-10 space-x-4 text-lg font-semibold bg-white rounded-md shadow-lg md:mb-0 dark:text-gray-700"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
