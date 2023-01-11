@@ -138,7 +138,11 @@ export default function Contact() {
               </a>
             </div>
           </div>
-          <form className="flex flex-col p-4 bg-white rounded-lg form">
+          <form
+            action="https://formsubmit.co/hmziiiraj@gmail.com"
+            method="POST"
+            className="flex flex-col p-4 bg-white rounded-lg form"
+          >
             <label htmlFor="name" className="mx-4 text-sm text-gray-600">
               {" "}
               Your Name
