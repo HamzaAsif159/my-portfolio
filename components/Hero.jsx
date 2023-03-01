@@ -8,7 +8,6 @@ export default function Hero() {
   return (
     <div className="flex flex-col items-center justify-center overflow-hidden md:flex-row md:items-start">
       {/* Text container */}
-
       <div className="w-full mx-auto text-center md:w-1/2 md:text-left lg:p-20">
         <RoughNotationGroup show={true}>
           <RainbowHighlight color={colors[0]}>

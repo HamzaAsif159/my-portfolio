@@ -112,7 +112,11 @@ export default function Aboutme() {
             <h1 className="inline-block px-2 py-1 text-3xl font-bold bg-red-500 rounded-md text-gray-50">
               Tech Stack
             </h1>
-            <div className="flex flex-row flex-wrap mt-8">
+            <div
+              className="flex flex-row flex-wrap mt-8"
+              data-aos="flip-up"
+              data-aos-duration="2000"
+            >
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
                 className="w-20 h-20 mx-4 my-4"

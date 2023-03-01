@@ -6,7 +6,11 @@ export default function Experience() {
   return (
     <section className="text-white bg-gray-800">
       <div className="h-48 max-w-6xl mx-auto bbg-gray-800">
-        <h1 className="py-20 text-5xl font-bold text-center  md:text-9xl md:text-left">
+        <h1
+          className="py-20 text-5xl font-bold text-center  md:text-9xl md:text-left"
+          data-aos="fade-up"
+          data-aos-duration="3000"
+        >
           Experience
         </h1>
       </div>

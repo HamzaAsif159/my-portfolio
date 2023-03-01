@@ -5,7 +5,11 @@ export default function Contact() {
   return (
     <section>
       <div className="h-48 max-w-6xl mx-auto antialiased bg-gray-800">
-        <h1 className="py-16 pb-16 text-5xl font-bold text-center text-white  md:text-9xl md:text-left">
+        <h1
+          className="py-16 pb-16 text-5xl font-bold text-center text-white  md:text-9xl md:text-left"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
           Contact
         </h1>
       </div>
