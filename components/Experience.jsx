@@ -1,8 +1,14 @@
 import React from "react"
 import Data from "../constant/Data"
 import ExperienceCard from "./ExperienceCard"
+// importing aos
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 export default function Experience() {
+  React.useEffect(() => {
+    AOS.init()
+  }, [])
   return (
     <section className="text-white bg-gray-800">
       <div className="h-48 max-w-6xl mx-auto bbg-gray-800">

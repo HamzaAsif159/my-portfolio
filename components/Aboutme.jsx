@@ -1,9 +1,19 @@
 import React from "react"
 import Data from "../constant/Data"
+// importing aos
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 export default function Aboutme() {
+  React.useEffect(() => {
+    AOS.init()
+  }, [])
   return (
-    <section className="bg-gray-800">
+    <section
+      className="bg-gray-800"
+      data-aos="fade-up"
+      data-aos-duration="2000"
+    >
       <div className="h-48 max-w-6xl mx-auto text-white bg-gray-800">
         <h1 className="py-20 text-5xl font-bold text-center  md:text-9xl md:text-left">
           About Me.

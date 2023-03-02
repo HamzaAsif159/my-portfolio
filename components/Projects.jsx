@@ -1,8 +1,14 @@
 import React from "react"
 import ProjectCard from "./ProjectCard"
 import Data from "../constant/Data"
+// importing aos
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 export default function Projects() {
+  React.useEffect(() => {
+    AOS.init()
+  }, [])
   return (
     <section className="text-white bg-gray-800">
       <div

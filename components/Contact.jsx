@@ -1,7 +1,13 @@
 import React from "react"
 import Data from "../constant/Data"
+// importing aos
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 export default function Contact() {
+  React.useEffect(() => {
+    AOS.init()
+  }, [])
   return (
     <section>
       <div className="h-48 max-w-6xl mx-auto antialiased bg-gray-800">
